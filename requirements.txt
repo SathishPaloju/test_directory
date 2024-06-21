@@ -1,3 +1,2 @@
-flask
-requests
-numpy
+dependency1
+dependency2
