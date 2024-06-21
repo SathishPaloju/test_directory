@@ -1,5 +1,5 @@
-#fsadfa Use the official Python image from the Docker Hub
-FROM python:3.9
+# Use the official Python image from the Docker Hub
+FROM python:3.10
 
 # Set the working directory in the container
     WORKDIR /app
@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Define environment variable
-ENV NAME testrepo
+ENV NAME test_directory
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
